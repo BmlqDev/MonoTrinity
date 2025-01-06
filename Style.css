@@ -1,0 +1,43 @@
+
+header {
+    background-color: rgba(214, 118, 0, 0.885);
+    padding: 10px;
+}
+body {
+    font: 200;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMDU3NDA0LWltYWdlLWpvYjYzMC1uLWwwZzA4bzczLmpwZw.jpg");
+}
+.BeautifulPicture {
+    position: relative;
+    left: 85%;
+}
+h1 {
+    color: black;
+}
+button {
+    background-color: rgba(208, 172, 106, 0.764);
+    scale: 100%;
+}
+ 
+.FirstPhoto {
+ scale: 35%;
+ position: absolute;
+ right: 1690px ;
+ nav-up: 50%;
+ 
+}
+.reftest {
+scale: 120%;
+}
+
+.indeximage {
+    transform: scale(0.3);  /* Reduz o tamanho da imagem */
+    position: fixed;        /* Fixado ao fundo */
+  
+    opacity: 0.2;           /* 20% opaco, quase transparente */
+    z-index: -1;            /* Coloca a imagem atrás de todo o conteúdo */
+    width: auto;            /* Ajuste automático de largura */
+    height: auto;
+    align-items: center;
+}
