@@ -32,9 +32,10 @@ scale: 120%;
 }
 
 .indeximage {
-    transform: scale(0.3);  /* Reduz o tamanho da imagem */
-    position: fixed;        /* Fixado ao fundo */
+    transform: scale(0.5);  /* Reduz o tamanho da imagem */
+    position: relative;      
   
+    left: 28%;
     opacity: 0.2;           /* 20% opaco, quase transparente */
     z-index: -1;            /* Coloca a imagem atrás de todo o conteúdo */
     width: auto;            /* Ajuste automático de largura */
